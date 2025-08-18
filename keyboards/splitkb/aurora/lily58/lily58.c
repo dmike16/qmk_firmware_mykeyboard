@@ -24,6 +24,11 @@ enum layers {
   _ADJUST
 };
 
+layer_state_t layer_state_set_user(layer_state_t state) {
+  return update_tri_layer_state(state, _LOWER, _RAISE, _ADJUST);
+}
+
+
 #ifdef OLED_ENABLE
 // NOTE: Most of the OLED code was originally written by Soundmonster for the Corne,
 // and has been copied directly from `crkbd/soundmonster/keymap.c`
