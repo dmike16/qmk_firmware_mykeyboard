@@ -14,4 +14,4 @@ CONVERT_TO = liatris
 LAYER_LOCK_ENABLE = yes
 SPLIT_KEYBOARD = yes
 
-
+SRC += ./lib/oled_common.c
