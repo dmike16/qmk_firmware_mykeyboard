@@ -18,7 +18,7 @@
 
 // The first four layers gets a name for readability, which is then used in the OLED below.
 enum layers {
-  _DEFAULT,
+  _DEFAULT = 0,
   _LOWER,
   _RAISE,
   _ADJUST
